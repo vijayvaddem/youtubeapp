@@ -12,7 +12,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    this.handleSubmit("tiger");
+    this.handleSubmit("animals");
   }
 
   handleSubmit = async (searchTerm) => {
